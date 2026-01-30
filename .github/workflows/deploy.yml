@@ -1,0 +1,11 @@
+name: Deploy Paper
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    uses: pollomarzo/scholar-nexus-paper-config/.github/workflows/deploy-paper.yml@main
