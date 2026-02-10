@@ -1,0 +1,12 @@
+name: Validate Paper
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    uses: pollomarzo/scholar-nexus-paper-config/.github/workflows/validate-paper.yml@main
