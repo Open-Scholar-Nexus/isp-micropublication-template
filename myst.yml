@@ -1,7 +1,7 @@
 version: 1
 extends:
-- https://raw.githubusercontent.com/pollomarzo/scholar-nexus/main/nexus.yml
-- https://raw.githubusercontent.com/pollomarzo/scholar-nexus-paper-config/main/isp-micropublication-2025.yml
+- https://raw.githubusercontent.com/pollomarzo/scholar-nexus/v0.1.0/nexus.yml
+- https://raw.githubusercontent.com/pollomarzo/scholar-nexus-paper-config/v0.1.0/isp-micropublication-2025.yml
 
 project:
   # Uncomment and fill when published
