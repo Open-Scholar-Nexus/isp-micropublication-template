@@ -4,7 +4,7 @@ This repo contains a template for creating Impact Scholars Program micropublicat
 
 ## Setup
 
-We expect you to have a working conda/mamba setup. For guidance on this, see the [Conda/Mamba Tutorial](https://pollomarzo.github.io/scholar-nexus/conda-tutorial).
+We expect you to have a working conda/mamba setup. For guidance on this, see the [Conda/Mamba Tutorial](https://open-scholar-nexus.github.io/oaktree-sapling/conda-tutorial).
 
 Install MyST Markdown using the provided environment file:
 
@@ -57,5 +57,5 @@ mamba activate isp-paper
 
 ## I want to know more!
 
-We've outlined some technical details [here](https://pollomarzo.github.io/scholar-nexus/myst-deeper).
+We've outlined some technical details [here](https://open-scholar-nexus.github.io/oaktree-sapling/myst-deeper).
 

@@ -9,4 +9,4 @@ on:
 
 jobs:
   validate:
-    uses: pollomarzo/scholar-nexus-paper-config/.github/workflows/validate-paper.yml@main
+    uses: Open-Scholar-Nexus/oaktree-sapling-config/.github/workflows/validate-paper.yml@main
