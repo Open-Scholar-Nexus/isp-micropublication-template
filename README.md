@@ -2,45 +2,32 @@
 
 This repo contains a template for creating Impact Scholars Program micropublications using [MyST Markdown](https://mystmd.org/).
 
-## Setup
+For a complete tutorial, read [Authoring an ISP micropublication](https://open-scholar-nexus.github.io/oaktree-sapling/isp-intro)
 
-We expect you to have a working conda/mamba setup. For guidance on this, see the [Conda/Mamba Tutorial](https://open-scholar-nexus.github.io/oaktree-sapling/conda-tutorial).
+## Quick setup
 
-Install MyST Markdown using the provided environment file:
+If you're familiar with the tools involved, these few steps are all you need. We expect you to have a working conda/mamba setup. For guidance on this, see the [Conda/Mamba Tutorial](https://open-scholar-nexus.github.io/oaktree-sapling/conda-tutorial).
 
-```bash
-mamba env create -f environment.yml
-mamba activate isp-paper
-```
 
-## Quick Start
+1. Install MyST Markdown using the provided environment file:
 
-1. **Edit your content** in `index.md`:
-   - Update the `title` and `abstract` in the frontmatter (between `---` markers)
-   - Write your manuscript in the main body
-   - Reference your figure using `@figure-main`
+   ```bash
+   mamba env create -f environment.yml
+   mamba activate isp-paper
+   ```
 
-2. **Add your figure**: Replace `figure.png` with your actual figure
-
-3. **Update author information** in `myst.yml`:
-   - Add author names, affiliations, and ORCID identifiers
-   - Update the `title` to match your `index.md`
-   - Add your keywords
-   - Update github repository
-
-4. **Add references** using either DOI (`[](doi:10.1016/j.wem.2022.09.005)`) or adding them to `bib.bib` and cite them using `@citationKey`
-
-5. **Replace the thumbnail** in `thumbnails/thumbnail.png` for the gallery display
-
-6. **Preview locally**:
+1. Edit your content in `index.md`
+1. Add your figure (replace `figure.png`)
+1. Update `myst.yml`
+1. Replace the thumbnail in `thumbnails/thumbnail.png` for the gallery display
+1. **Preview locally**:
    - While you're working on the paper, the best option is to run `myst start`
    - Before pushing, check that the static build (more detail in optional reading) is working as expected
 
    ```bash
    myst build --typst && myst build --html && npx serve _build/html
    ```
-7. Update this README.md:
-   - Include any information that someone reaching the repository may need. You can keep this README if you prefer, it won't be rendered.
+1. Update this README.md: include any information that someone reaching the repository may need. You can keep this README if you prefer, it won't be rendered.
 
 ## File Structure
 
